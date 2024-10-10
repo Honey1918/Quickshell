@@ -1,0 +1,129 @@
+.avatar {
+  height: 40px; 
+  width: 40px; 
+  border-radius: 50%;
+  object-fit: cover; 
+  margin-left: auto; 
+  background-color: #f4f5f8;
+  border: 2px solid #f4f5f8; 
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15); 
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d3d3d3; 
+  border-radius: 50%; 
+  padding: 6px; 
+  width: 36px; 
+  height: 36px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px; 
+  max-width: 400px;
+  font-family: "Arial", sans-serif;
+  max-height: 350px;
+  margin-bottom: 12px;
+  border: 2px solid #f1f1f1; 
+}
+
+.nafl {
+  border: 1px solid #f1f1f1;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.headerText {
+  font-weight: bold;
+  margin-right: 10px;
+  color: #888888; 
+}
+
+.statusBubble {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  margin-right: auto;
+  background-color: #a3a2a2;
+}
+
+.content {
+  text-align: left;
+}
+
+.title {
+  font-size: 15px;
+  margin-top: 13px;
+  margin-bottom: 12px;
+  color: #3e3e3e; 
+}
+
+.featureRequestButton {
+  border: 1px;
+  background-color: transparent;
+  padding: 0px;
+  cursor: pointer;
+  font-size: 12px; 
+  color: #888888; 
+  height: 10px;
+  transition: color 0.3s ease;
+  padding-right: 10px;
+}
+
+
+
+.dot {
+  background-color: #888888;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid #f1f1f1;
+}
+
+.inside {
+  display: flex;
+  align-items: center; 
+  gap: 8px;
+  position: relative;
+}
+
+.iconAndTitle {
+  display: flex;
+  align-items: center;
+  margin-top: -7px;
+}
+
+.insideWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  border: 1px solid rgba(128, 128, 128, 0.23);
+  padding: 2px; 
+  border-radius: 10%; 
+  height: 30px; 
+}
+
+.iconWrapperWithBorder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(128, 128, 128, 0.23);
+  border-radius: 10%;
+  padding: 6px; 
+  width: 38px; 
+  height: 30px;
+}
+
+.iconAndTitle svg {
+  margin-right: 10px; 
+  width: 25px;
+}

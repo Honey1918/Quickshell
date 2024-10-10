@@ -1,0 +1,59 @@
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #f4f5f8;
+  }
+  
+  .leftview {
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    padding: 4px; 
+    background-color: #f4f5f8;
+    max-height: 90px;
+  }
+  
+  .dot {
+    display: flex;
+    align-items: center;
+    background-color: #f4f5f8;
+  }
+  
+  .name_label {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background-color: #f4f5f8;
+    padding: 12px; 
+  }
+  
+  .titleContainer {
+    display: flex;
+    gap: 0.5rem; 
+    align-items: center;
+    background-color: #f4f5f8;
+  }
+  
+  .title {
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px; 
+    background-color: #f4f5f8;
+  }
+  
+  .heading {
+    text-align: left;
+    color: grey;
+    font-size: 16px; 
+    background-color: #f4f5f8;
+  }
+  
+  .iconsname {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
+    background-color: #f4f5f8;
+    padding: 2px; 
+  }
+  
